@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
+  "chromium-args": "--mixed-context",
   "scripts": {
     "start": "nw .",
     "build": "nwbuild ./* --mode=build --version=0.70.0 --flavor=sdk --zip=true --cache=false --platforms=win --arch=x64 --outDir=./build",
@@ -18,8 +19,8 @@
     "position": "center",
     "min_width": 400,
     "min_height": 200,
-    "max_width": 800,
-    "max_height": 600
+    "max_width": 801,
+    "max_height": 501
   },
   "keywords": [],
   "author": "",
